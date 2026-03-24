@@ -11,13 +11,26 @@ const App = () => {
   return (
     <div className="container mx-auto max-w-7xl">
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
+
+      <section id="home">
+        <Hero />
+      </section>
+
+      <section id="about">
+        <About />
+      </section>
+
+      <section id="work">
+        <Projects />
+      </section>
+
       <Experiences />
-      <Contact/>
+
+      <section id="contact">
+        <Contact/>
+      </section>
+
       <Footer />
-      
     </div>
   )
 }

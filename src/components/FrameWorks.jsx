@@ -9,6 +9,9 @@ export function FrameWorks() {
     "Vite.js",
     "GitHub",
     "Firebase",
+    "Excel",
+    "js",
+    "mysql",
    ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center ">
