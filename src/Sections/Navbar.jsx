@@ -50,8 +50,9 @@ const Navbar = () => {
 
             {/* Mobile Resume link */}
             <a
-              className="sm:hidden text-xl font-bold text-white transition-colors hover:text-gray-200"
+              className="text-xl font-bold text-white hover:text-gray-200 transition-colors"
               href="/assets/RESUME.pdf"
+              download="Gabriel_Resume.pdf"  // ← this makes it downloadable
               target="_blank"
               rel="noopener noreferrer"
             >
